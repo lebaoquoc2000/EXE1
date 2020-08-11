@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Giao Dien Phieu Nhap </string>
+    <string name="appname">Quan Ly Phieu Nhap</string>
+    <string name="thongtin">Thông Tin Phieu Nhap</string>
+    <string name="hoTen">Nhập So Phieu</string>
+    <string name="ma">Nhập Mã Kho</string>
+    <string name="diachi">Nhập Ngay Lap</string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xoa</string>
+    <string name="sua">Sua</string>
+    <string name="thoat">Thoát</string>
+    <string name="defect">Defect</string>
+    <string name="ds">Danh Sách Phieu</string>
+
+</resources>

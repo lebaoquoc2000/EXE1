@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tdc.edu.vn.test.GiaoDien.MainDetailSV">
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/thongtin" />
+
+    <EditText
+        android:id="@+id/txtMa"
+        style="@style/txt"
+        android:hint="@string/ma" />
+
+    <EditText
+        android:id="@+id/txtSoPhieu"
+        style="@style/txt"
+        android:hint="@string/hoTen" />
+
+    <EditText
+        android:id="@+id/txtNgayLap"
+        style="@style/txt"
+        android:hint="@string/diachi" />
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chucnang" />
+    <LinearLayout style="@style/chucnang">
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:background="@drawable/them"
+            android:layout_marginLeft="10dp"
+            android:text="@string/sua" />
+        <Button
+            android:id="@+id/btnDefect"
+            style="@style/btn"
+            android:layout_margin="10dp"
+            android:background="@drawable/them"
+            android:text="@string/defect" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
