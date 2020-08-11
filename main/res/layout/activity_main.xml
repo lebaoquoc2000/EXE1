@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tdc.edu.vn.test.GiaoDien.MainActivity">
+
+    <TextView
+        style="@style/appname"
+        android:text="@string/appname" />
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/thongtin" />
+
+    <EditText
+        android:id="@+id/txtMa"
+        style="@style/txt"
+        android:hint="@string/ma" />
+
+    <EditText
+        android:id="@+id/txtSoPhieu"
+        style="@style/txt"
+        android:hint="@string/hoTen" />
+
+    <EditText
+        android:id="@+id/txtNgayLap"
+        style="@style/txt"
+        android:hint="@string/diachi" />
+
+    <TextView
+        style="@style/tieude"
+        android:layout_marginBottom="10dp"
+        android:text="@string/chucnang" />
+
+
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/btn"
+            android:background="@drawable/them"
+            android:text="@string/them" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/btn"
+            android:background="@drawable/them"
+            android:layout_marginLeft="10dp"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:background="@drawable/them"
+            android:layout_marginLeft="10dp"
+            android:text="@string/sua" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            style="@style/btn"
+            android:background="@drawable/them"
+            android:layout_marginLeft="10dp"
+            android:text="@string/thoat" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/tieude"
+        android:layout_marginTop="10dp"
+        android:text="@string/ds" />
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        style="@style/lv"></ListView>
+</LinearLayout>
